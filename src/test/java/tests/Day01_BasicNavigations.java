@@ -9,7 +9,7 @@ public class Day01_BasicNavigations {
 //          SET UP DRIVER
     System.setProperty("webdriver.chrome.driver","./src/resources/drivers/chromedriver.exe");
 //          CREATE CHROME DRIVER
-    WebDriver driver = new ChromeDriver();
+    WebDriver driver = new ChromeDriver();  //ChromeDriver() is our resource and is used to interact with Web Application
 
 
 //       STEP 3: WRITE TEST SCRIPTS
