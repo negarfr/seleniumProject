@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="drivers">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../SeleniumNewProjecti/src/resources/drivers" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
