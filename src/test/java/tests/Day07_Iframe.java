@@ -65,16 +65,17 @@ Verify the text Elemental Selenium text is displayed on the page
 
     }
     /*
-    What might be the reason for your test case to fail?
-    There may be wait problem. The page may be very slow. Internet maybe not fast enough.
-    Put some more wait. We can use explicit wait in selenium(we will learn later)
-    Locator might be incorrect.
-    Double check locator and fix if needed
-    Data issue. Typo in our expected values.
-    If there is any documentation issue, we can talk to BA to fix the document and then we can use correct expected values
-    Maybe there is an iframe on the page
-    We first need to switch to the frame
+    What might be the reason for your test case to fail?:
 
+    1- There may be wait problem. The page may be very slow. Internet maybe not fast enough.
+    2- Put some more wait. We can use explicit wait in selenium(we will learn later)
+    3- Locator might be incorrect.  ==> Double check locator and fix if needed
+    4- Data issue. Typo in our expected values.
+    5- If there is any documentation issue, we can talk to BA to fix the document and then we can use correct expected values
+
+    6- Maybe there is an iframe on the page ==>  We first need to switch to the frame
+
+    It may be a real bug that is caused by the latest codes ==> We discuss the issue with the team then raise a bug ticket if needed
      */
 
 }
