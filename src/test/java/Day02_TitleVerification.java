@@ -1,10 +1,13 @@
 package tests;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day02_TitleVerification {
 
+
+      //Test Case ==> Verify if page title is “Techpro Education | Online It Courses & Bootcamps”
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver","./src/resources/drivers/chromedriver.exe");
@@ -16,7 +19,6 @@ public class Day02_TitleVerification {
        String actualTitle =  driver.getTitle();   // we will get String as return type so we put in String Data type
        String expectedTitle = "Techpro Education | Online It Courses & Bootcamps";
 
-        //Test asking ==> Verify if page title is “Techpro Education | Online It Courses & Bootcamps”
         if(actualTitle.equals(expectedTitle)){
             System.out.println("PASS");
         }else {
@@ -25,12 +27,15 @@ public class Day02_TitleVerification {
             System.out.println("BUT EXPECTED TITLE :" + expectedTitle);
         }
 
-        driver.quit();
+         driver.quit();
 
-    }           /*
+              /*
                 Manual testing to verify page title:
                 go to title --> right click--> inspect --> scroll down--> find <title> --> take screenshot
                  */
 
+
+
+    }
 }
 

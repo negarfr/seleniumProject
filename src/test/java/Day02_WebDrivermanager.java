@@ -19,7 +19,8 @@ public class Day02_WebDrivermanager {
         //going to the page
         driver.get("https://www.techproeducation.com");
         //close
-        driver.quit();//ok can i delete other project ?
+        driver.quit();
         
+
     }
 }
